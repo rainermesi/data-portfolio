@@ -13,5 +13,5 @@ Welcome to my technical blog where I showcase projects and document my journey i
 
 ## Latest Posts
 {% for post in site.posts %}
-* [{{ post.title }}]({{ post.url }})
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
