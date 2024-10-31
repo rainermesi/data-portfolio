@@ -12,6 +12,6 @@ Welcome to my technical blog where I showcase projects and document my journey i
 - Learning Resources
 
 ## Latest Posts
-{% raw %}{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}{% endraw %}
+{% for post in site.posts limit:5 %}
+* {{ post.date | date_to_string }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
