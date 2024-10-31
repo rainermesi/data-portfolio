@@ -5,3 +5,4 @@ plugins:
 title: Data Engineering & Analysis Portfolio
 description: Showcasing my projects in data engineering, analysis, and visualization
 show_downloads: false
+baseurl: "/data-portfolio"
