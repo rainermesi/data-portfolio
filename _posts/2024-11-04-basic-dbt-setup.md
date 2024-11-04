@@ -2,6 +2,7 @@
 layout: post
 title: "Setting Up a DBT-BigQuery Pipeline Directly in GitHub"
 date: 2024-11-04
+author: rainermesi
 ---
 
 # Setting Up a DBT-BigQuery Pipeline Directly in GitHub
